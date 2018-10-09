@@ -21,7 +21,7 @@
   <![endif]-->
 </head>
 <body class="hold-transition login-page">
-<div class="login-box" style="display:none;">
+<div class="login-box">
   <div class="login-logo">
     <span><b>CB</b></span><span>oard</span>
   </div>
@@ -88,10 +88,6 @@
       increaseArea: '20%' // optional
     });
     localStorage.setItem('cboard_referer', document.location.hash);
-
-    $("input[name=username]").val('admin');
-    $("input[name=password]").val("root123");
-    $("form").submit();
   });
 </script>
 </body>
